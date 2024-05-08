@@ -32,11 +32,17 @@ aside {
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: center;}
+  text-align: center;
+  }
 
 aside img {
   width: 200px;
   height: auto;
+}
+
+aside h2{
+  position: absolute;
+  left: 150px;
 }
 footer {
   margin-top: 15px ;
