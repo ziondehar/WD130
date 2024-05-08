@@ -14,7 +14,7 @@
 --accent2-color: #FF7D00;
 
 --heading-font:'',serif;
---paragraph-font:'',serif:var();
+--paragraph-font:'',:serif:var(--primary-color);
 
 --nav-background-color: #FFECD1;
 --nav-link-color: #15616D;
