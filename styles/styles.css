@@ -41,3 +41,11 @@ footer {
   margin-top: 15px ;
   text-align: center;
  }
+
+/* Class Selectors */
+.box{
+  margin: 1rem;
+  padding: 1rem;
+  background-color: darkgray;
+  color: azure;
+}
