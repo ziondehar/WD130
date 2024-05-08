@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
  body{
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
  }
 
 :root{
@@ -20,8 +20,7 @@
 --nav-link-color: #15616D;
 --nav-hover-link-color: #FFECD1;
 --nav-hover-background-color: #FF7D00;
-
- }
+}
 
         
  h1, h2, h3, h4, h5, h6 {
