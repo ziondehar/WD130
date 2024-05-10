@@ -27,12 +27,6 @@ body{
      color: var(--primary-color);
    }
 
-   .hero img {
-     display: block;
-     width: 100%;
-     height: auto;
-     position: relative;
-   }
    h1{
     position: absolute;
    }
