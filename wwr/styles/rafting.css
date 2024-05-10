@@ -26,12 +26,24 @@ body{
      font-family: var(--heading-font);
      color: var(--primary-color);
    }
+
+   .hero img {
+     display: block;
+     width: 100%;
+     height: auto;
+     position: relative;
+   }
+   h1{
+    position: absolute;
+   }
+   article{
+    position: absolute;}
   
   header {
     padding: 20px;
     background-color: var(--accent1-color);
   }
-  
+
   p{padding:25px;
   }
   
@@ -60,4 +72,5 @@ body{
 footer {
   margin-top: 15px ;
   text-align: center;
+  
  }
