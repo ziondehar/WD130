@@ -28,10 +28,10 @@ body{
    }
 
    h1{
-    position: absolute;
+    position: relative;
    }
    article{
-    position: absolute;}
+    position: relative;}
   
   header {
     padding: 20px;
