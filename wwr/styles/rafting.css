@@ -32,7 +32,9 @@ body{
    }
    article{
     position: relative;}
-  
+.grid{display: grid;
+  align-items: center;
+}       
   header {
     padding: 20px;
     background-color: var(--accent1-color);

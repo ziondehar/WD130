@@ -30,6 +30,7 @@ box-shadow: 0 0 30px gray;
 float: right;}
 
 p{padding: 0;}
+
 .grid{display: grid;
   align-items: center;
 }       
