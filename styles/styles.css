@@ -34,6 +34,7 @@ p{padding: 0;}
 }       
 main {
   max-width: 840px;
+  grid-column: 2/3;
 }
 
 aside {
@@ -45,11 +46,15 @@ aside {
   color: #333;
   text-align: center;
   position: relative;
+  grid-column:1/2 ;
+  grid-row: 1/2;
   }
 
 aside img {
   width: 200px;
   height: auto;
+
+  
 }
 
 aside h2{
@@ -60,6 +65,7 @@ header,footer,.grid {
   margin-top: 15px ;
   max-width: 840px;
   margin: auto;
+  text-align: center;
   
  }
 
