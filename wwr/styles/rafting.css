@@ -42,12 +42,17 @@ body{
 
   p{padding:25px;
   }
-  
+  section{
+    justify-content: center;
+    align-content: center;
+  }
   
   nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    grid-column: 2/3;
+    align-content: space-evenly;
   }
   
   nav a {
@@ -68,5 +73,6 @@ body{
 footer {
   margin-top: 15px ;
   text-align: center;
-  
+  justify-content: center;
+  align-content: center;
  }
