@@ -81,3 +81,39 @@ footer {
   justify-content: center;
   align-content: center;
  }
+ .box{
+  display: grid;
+  justify-content: center;
+  
+  margin: 1rem;
+  padding: 1rem;
+  background-color: darkgray;
+  color: azure;
+}
+.box img{ 
+  width: 20%;
+position: relative;
+}
+
+ .hero {
+  position: relative;
+  display: inline-block;
+}
+
+.hero img {
+  display: block;
+  width: 82.5%;
+  height: auto;
+
+}
+
+.overlay-text {
+  position: absolute;
+  top: 15%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #dec6a4; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;}
