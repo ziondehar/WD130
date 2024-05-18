@@ -77,12 +77,10 @@ body{
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);}
 
-.sociallinks{display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-footer {
+
+footer {display: flex;
+  align-items: end ;
   margin-top: 15px ;
   text-align: center;
   justify-content: center;
