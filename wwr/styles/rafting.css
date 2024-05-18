@@ -25,6 +25,7 @@ body{
    h1, h2, h3, h4, h5, h6 {
      font-family: var(--heading-font);
      color: var(--primary-color);
+     text-align: center;
    }
 
    h1{
@@ -41,6 +42,7 @@ body{
     background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
+    column-gap: 50px;
    
   }
 
@@ -102,7 +104,7 @@ position: relative;
 
 .hero img {
   display: block;
-  width: 82.5%;
+  width: 130%;
   height: auto;
 
 }
@@ -110,10 +112,15 @@ position: relative;
 .overlay-text {
   position: absolute;
   top: 15%; 
-  left: 50%; 
+  left: 60%; 
   transform: translate(-50%, -50%); 
   background-color: #dec6a4; 
-  color: #fff; 
+  color: #fcf5f5; 
   padding: 10px 20px; 
   font-size: 20px; 
   text-align: center;}
+
+.section{display: grid;
+justify-content: center;
+text-align: center;
+}
