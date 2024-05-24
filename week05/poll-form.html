@@ -14,12 +14,14 @@
     <form>
         <fieldset>
         <legend>Contact Information</legend>
+        <div class="form-item column2">
         <label>Full Name: <input type="text" name="fullname"></label>
         <label>Email: <input type="email" name="useremail"></label>
         </fieldset>
-       
+        </div>
         <fieldset>
             <legend>Questions</legend>
+            <div class="form-item column1">
             <label for="browser">What is your favorite internet browser?</label>
             <select id="browser" name="browser">
             <option value="chrome">Chrome</option>
@@ -30,6 +32,7 @@
             <input type="checkbox" id="pet" name="pet">
             <label for="feedback">List the places you have lived:</label>
             <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </div>
         </fieldset>
         <button type="submit">Submit </button>
             </form>
