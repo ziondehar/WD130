@@ -129,3 +129,11 @@ justify-content: center;
 align-items: center;
 align-content: space-evenly;
 }
+
+.workers{ display: flex;
+  height: 200px;
+  width:100px;
+  object-fit: contain;
+  justify-content: flex-start;
+  
+}
