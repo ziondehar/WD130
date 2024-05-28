@@ -140,3 +140,14 @@ align-items: center;
 align-content: space-evenly;
 }
 
+.form-item column1{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 1rem;
+
+}
+.form{
+  position: absolute;
+}
+
