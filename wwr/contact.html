@@ -53,13 +53,23 @@
             <div class="form-item">
                 <label>What is your name?  <input type="text" name="username" id="username"></label>
                 <label>What is your email?  <input type="text" name="email" id="email"></label>
-            <p>What is required:</p>
-            <input type="radio" id="website" name="website" value="website">
-            <label for="website">Website Suggestion</label><br>
-            <input type="radio" id="General" name="General" value="General">
-            <label for="General">General Inquiry</label><br>  
-            <input type="radio" id="reservation" name="reservation" value="reservation">
-            <label for="reservation">Reservation Question</label><br><br>
+                <h1>Purpose</h1>
+                <label class="container">Website Suggestion
+                  <input type="radio" checked="checked" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">General Inquiry
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Reservation Question
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container">Other
+                  <input type="radio" name="radio">
+                  <span class="checkmark"></span>
+                </label>
             
             <label for="message">Your message</label>
             <textarea id="message" name="message" rows="4" placeholder="Type Here"></textarea>
