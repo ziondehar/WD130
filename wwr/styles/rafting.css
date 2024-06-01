@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+*{ box-sizing: border-box;}
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -152,7 +152,7 @@ align-content: space-evenly;
 }
 
 
-/* The container */
+
 .container {
   display: block;
   position: relative;
@@ -166,14 +166,14 @@ align-content: space-evenly;
   user-select: none;
 }
 
-/* Hide the browser's default radio button */
+
 .container input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
-/* Create a custom radio button */
+
 .checkmark {
   position: absolute;
   top: 0;
@@ -184,29 +184,28 @@ align-content: space-evenly;
   border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
+
 .container:hover input ~ .checkmark {
   background-color: #ccc;
 }
 
-/* When the radio button is checked, add a blue background */
+
 .container input:checked ~ .checkmark {
   background-color: #2196F3;
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
+
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the indicator (dot/circle) */
+
 .container .checkmark:after {
  	top: 9px;
 	left: 9px;
@@ -214,4 +213,16 @@ align-content: space-evenly;
 	height: 8px;
 	border-radius: 50%;
 	background: white;}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
