@@ -79,3 +79,16 @@ header,footer,.grid {
   color: azure;
 }
 
+.form{
+  margin: 1rem;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.tabcontent {display: grid;
+  justify-content: center;
+  align-items: left;
+
+  
+}
