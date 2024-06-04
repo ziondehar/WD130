@@ -47,7 +47,15 @@ body{
     column-gap: 50px;
    
   }
-
+  .call{position: absolute;
+    top: 50%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    background-color: #dec6a4; 
+    color: #fcf5f5; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;}
 
   p{padding:25px;
   }
@@ -125,7 +133,7 @@ position: relative;
 
 .overlay-text {
   position: absolute;
-  top: 50%; 
+  top: 15%; 
   left: 30%; 
   transform: translate(-50%, -50%); 
   background-color: #dec6a4; 
