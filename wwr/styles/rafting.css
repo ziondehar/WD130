@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{ box-sizing: border-box;}
+*{ box-sizing: border-box;
+margin: 0;
+padding: 0;}
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -123,8 +125,8 @@ position: relative;
 
 .overlay-text {
   position: absolute;
-  top: 15%; 
-  left: 60%; 
+  top: 50%; 
+  left: 30%; 
   transform: translate(-50%, -50%); 
   background-color: #dec6a4; 
   color: #fcf5f5; 
@@ -226,3 +228,16 @@ align-content: space-evenly;
   clear: both;
 }
 
+.full{background-size: 100vw;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.full img{
+  background-size: 100vw;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
